@@ -146,6 +146,6 @@ grafica + geom_point() + xlab('Quilates') + ylab('Precio') + xlim(caremin, carem
     : Removed 4 rows containing missing values (geom_path).
 
 
-![svg](images/output_13_1.svg)
+![svg](images/output_13_1.png)
 
 
