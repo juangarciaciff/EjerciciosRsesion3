@@ -37,22 +37,6 @@ head(diamonds)
 
 
 
-
-```R
-dim(diamonds)
-```
-
-
-
-
-<ol class=list-inline>
-	<li>53940</li>
-	<li>10</li>
-</ol>
-
-
-
-
 ## * Generamos una muestra aleatoria del 100 filas del dataset diamonds
 
 
@@ -65,14 +49,14 @@ length(numlist100)
 
 
 
-<ol class=list-inline>
-	<li>34</li>
-	<li>42306</li>
-	<li>37944</li>
-	<li>2488</li>
-	<li>35078</li>
-	<li>5699</li>
-</ol>
+<ul class=list-inline>
+	<li>47479</li>
+	<li>22055</li>
+	<li>43849</li>
+	<li>49973</li>
+	<li>31968</li>
+	<li>42572</li>
+</ul>
 
 
 
@@ -97,12 +81,12 @@ dim(diamonds)
 <table>
 <thead><tr><th></th><th scope=col>carat</th><th scope=col>cut</th><th scope=col>color</th><th scope=col>clarity</th><th scope=col>depth</th><th scope=col>table</th><th scope=col>price</th><th scope=col>x</th><th scope=col>y</th><th scope=col>z</th></tr></thead>
 <tbody>
-	<tr><th scope=row>34</th><td>0.23</td><td>Very Good</td><td>E</td><td>VS1</td><td>59.5</td><td>58</td><td>402</td><td>4.01</td><td>4.06</td><td>2.4</td></tr>
-	<tr><th scope=row>42306</th><td>0.55</td><td>Very Good</td><td>D</td><td>SI2</td><td>63.3</td><td>56</td><td>1295</td><td>5.22</td><td>5.24</td><td>3.31</td></tr>
-	<tr><th scope=row>37944</th><td>0.33</td><td>Very Good</td><td>H</td><td>VS2</td><td>58.8</td><td>62</td><td>486</td><td>4.49</td><td>4.53</td><td>2.65</td></tr>
-	<tr><th scope=row>2488</th><td>0.8</td><td>Ideal</td><td>D</td><td>SI1</td><td>61.7</td><td>56</td><td>3195</td><td>5.96</td><td>6</td><td>3.69</td></tr>
-	<tr><th scope=row>35078</th><td>0.3</td><td>Very Good</td><td>F</td><td>IF</td><td>62.6</td><td>55</td><td>886</td><td>4.3</td><td>4.32</td><td>2.7</td></tr>
-	<tr><th scope=row>5699</th><td>1</td><td>Fair</td><td>E</td><td>SI2</td><td>56.9</td><td>63</td><td>3889</td><td>6.54</td><td>6.49</td><td>3.71</td></tr>
+	<tr><th scope=row>47479</th><td>0.6</td><td>Ideal</td><td>G</td><td>VS2</td><td>60.4</td><td>57</td><td>1861</td><td>5.49</td><td>5.51</td><td>3.32</td></tr>
+	<tr><th scope=row>22055</th><td>1.21</td><td>Premium</td><td>D</td><td>VS1</td><td>60.2</td><td>59</td><td>10083</td><td>6.89</td><td>6.86</td><td>4.14</td></tr>
+	<tr><th scope=row>43849</th><td>0.5</td><td>Good</td><td>F</td><td>VS2</td><td>62.8</td><td>61</td><td>1447</td><td>4.94</td><td>5</td><td>3.12</td></tr>
+	<tr><th scope=row>49973</th><td>0.29</td><td>Very Good</td><td>H</td><td>VVS2</td><td>61.7</td><td>55</td><td>541</td><td>4.27</td><td>4.3</td><td>2.64</td></tr>
+	<tr><th scope=row>31968</th><td>0.26</td><td>Premium</td><td>F</td><td>VS1</td><td>59.5</td><td>58</td><td>452</td><td>4.18</td><td>4.22</td><td>2.5</td></tr>
+	<tr><th scope=row>42572</th><td>0.38</td><td>Premium</td><td>E</td><td>VVS1</td><td>61.9</td><td>58</td><td>1327</td><td>4.66</td><td>4.62</td><td>2.87</td></tr>
 </tbody>
 </table>
 
@@ -112,10 +96,10 @@ dim(diamonds)
 
 
 
-<ol class=list-inline>
+<ul class=list-inline>
 	<li>53940</li>
 	<li>10</li>
-</ol>
+</ul>
 
 
 
@@ -137,28 +121,28 @@ pricemax
 
 
 
-0.2
+0.23
 
 
 
 
 
 
-2.5
+2.4
 
 
 
 
 
 
-367
+378
 
 
 
 
 
 
-17294
+18648
 
 
 
@@ -175,10 +159,9 @@ grafica + geom_point() + xlab('Quilates') + ylab('Precio') + xlim(caremin, carem
 ```
 
     Warning message:
-    : Removed 5 rows containing missing values (geom_path).
+    : Removed 4 rows containing missing values (geom_path).
 
 
-![svg](images/output_14_1.svg)
+![svg](images/output_13_1.svg)
 
 
-***
