@@ -58,130 +58,37 @@ dim(diamonds)
 
 ```R
 numlist100 <- sample(1:length(diamonds[[1]]), 100)
-```
-
-
-```R
-numlist100
+head(numlist100)
+length(numlist100)
 ```
 
 
 
 
 <ol class=list-inline>
-	<li>25858</li>
-	<li>29913</li>
-	<li>38368</li>
-	<li>51584</li>
-	<li>11819</li>
-	<li>19030</li>
-	<li>50135</li>
-	<li>43014</li>
-	<li>25397</li>
-	<li>31314</li>
-	<li>29406</li>
-	<li>34416</li>
-	<li>48847</li>
-	<li>52439</li>
-	<li>31369</li>
-	<li>34462</li>
-	<li>29134</li>
-	<li>49524</li>
-	<li>29424</li>
-	<li>17775</li>
-	<li>27622</li>
-	<li>39406</li>
-	<li>28086</li>
-	<li>2185</li>
-	<li>8771</li>
-	<li>24774</li>
-	<li>651</li>
-	<li>45261</li>
-	<li>48603</li>
-	<li>27957</li>
-	<li>10863</li>
-	<li>25662</li>
-	<li>36078</li>
-	<li>41407</li>
-	<li>12998</li>
-	<li>12183</li>
-	<li>33451</li>
-	<li>2759</li>
-	<li>45338</li>
-	<li>19071</li>
-	<li>53293</li>
-	<li>8560</li>
-	<li>47133</li>
-	<li>156</li>
-	<li>27401</li>
-	<li>13888</li>
-	<li>2294</li>
-	<li>47160</li>
-	<li>29950</li>
-	<li>46754</li>
-	<li>7159</li>
-	<li>38387</li>
-	<li>27099</li>
-	<li>835</li>
-	<li>11495</li>
-	<li>29653</li>
-	<li>45012</li>
-	<li>49331</li>
-	<li>14611</li>
-	<li>25381</li>
-	<li>50612</li>
-	<li>32919</li>
-	<li>39400</li>
-	<li>49857</li>
-	<li>818</li>
-	<li>32821</li>
-	<li>28724</li>
-	<li>44299</li>
-	<li>51167</li>
-	<li>19505</li>
-	<li>23355</li>
-	<li>27791</li>
-	<li>5462</li>
-	<li>22062</li>
-	<li>40778</li>
-	<li>36500</li>
-	<li>38224</li>
-	<li>37225</li>
-	<li>32056</li>
-	<li>21621</li>
-	<li>28429</li>
-	<li>22781</li>
-	<li>37230</li>
-	<li>19769</li>
-	<li>13346</li>
-	<li>20187</li>
-	<li>5364</li>
-	<li>41518</li>
-	<li>13505</li>
-	<li>3347</li>
-	<li>46562</li>
-	<li>8626</li>
-	<li>2289</li>
-	<li>45591</li>
-	<li>32686</li>
-	<li>20139</li>
-	<li>37984</li>
-	<li>28892</li>
-	<li>12587</li>
-	<li>4542</li>
+	<li>34</li>
+	<li>42306</li>
+	<li>37944</li>
+	<li>2488</li>
+	<li>35078</li>
+	<li>5699</li>
 </ol>
 
 
 
 
 
+
+
+100
+
+
+
+
 ```R
 subset100diamonds <- diamonds[numlist100, ]
-```
-
-
-```R
 head(subset100diamonds)
+dim(diamonds)
 ```
 
 
@@ -190,22 +97,17 @@ head(subset100diamonds)
 <table>
 <thead><tr><th></th><th scope=col>carat</th><th scope=col>cut</th><th scope=col>color</th><th scope=col>clarity</th><th scope=col>depth</th><th scope=col>table</th><th scope=col>price</th><th scope=col>x</th><th scope=col>y</th><th scope=col>z</th></tr></thead>
 <tbody>
-	<tr><th scope=row>25858</th><td>1.41</td><td>Very Good</td><td>G</td><td>VVS1</td><td>61.2</td><td>55</td><td>14936</td><td>7.22</td><td>7.25</td><td>4.43</td></tr>
-	<tr><th scope=row>29913</th><td>0.42</td><td>Very Good</td><td>I</td><td>SI1</td><td>61</td><td>55.8</td><td>712</td><td>4.83</td><td>4.86</td><td>2.96</td></tr>
-	<tr><th scope=row>38368</th><td>0.51</td><td>Ideal</td><td>I</td><td>SI1</td><td>62.5</td><td>57</td><td>1023</td><td>5.07</td><td>5.1</td><td>3.18</td></tr>
-	<tr><th scope=row>51584</th><td>0.6</td><td>Premium</td><td>E</td><td>VVS2</td><td>62.4</td><td>61</td><td>2393</td><td>5.36</td><td>5.31</td><td>3.33</td></tr>
-	<tr><th scope=row>11819</th><td>1</td><td>Good</td><td>D</td><td>SI1</td><td>64.2</td><td>60</td><td>5093</td><td>6.22</td><td>6.28</td><td>4.01</td></tr>
-	<tr><th scope=row>19030</th><td>0.27</td><td>Very Good</td><td>E</td><td>VVS2</td><td>63.8</td><td>54</td><td>621</td><td>4.06</td><td>4.09</td><td>2.6</td></tr>
+	<tr><th scope=row>34</th><td>0.23</td><td>Very Good</td><td>E</td><td>VS1</td><td>59.5</td><td>58</td><td>402</td><td>4.01</td><td>4.06</td><td>2.4</td></tr>
+	<tr><th scope=row>42306</th><td>0.55</td><td>Very Good</td><td>D</td><td>SI2</td><td>63.3</td><td>56</td><td>1295</td><td>5.22</td><td>5.24</td><td>3.31</td></tr>
+	<tr><th scope=row>37944</th><td>0.33</td><td>Very Good</td><td>H</td><td>VS2</td><td>58.8</td><td>62</td><td>486</td><td>4.49</td><td>4.53</td><td>2.65</td></tr>
+	<tr><th scope=row>2488</th><td>0.8</td><td>Ideal</td><td>D</td><td>SI1</td><td>61.7</td><td>56</td><td>3195</td><td>5.96</td><td>6</td><td>3.69</td></tr>
+	<tr><th scope=row>35078</th><td>0.3</td><td>Very Good</td><td>F</td><td>IF</td><td>62.6</td><td>55</td><td>886</td><td>4.3</td><td>4.32</td><td>2.7</td></tr>
+	<tr><th scope=row>5699</th><td>1</td><td>Fair</td><td>E</td><td>SI2</td><td>56.9</td><td>63</td><td>3889</td><td>6.54</td><td>6.49</td><td>3.71</td></tr>
 </tbody>
 </table>
 
 
 
-
-
-```R
-dim(diamonds)
-```
 
 
 
@@ -235,28 +137,28 @@ pricemax
 
 
 
-0.27
+0.2
 
 
 
 
 
 
-2.37
+2.5
 
 
 
 
 
 
-397
+367
 
 
 
 
 
 
-18508
+17294
 
 
 
@@ -273,8 +175,10 @@ grafica + geom_point() + xlab('Quilates') + ylab('Precio') + xlim(caremin, carem
 ```
 
     Warning message:
-    : Removed 4 rows containing missing values (geom_path).
+    : Removed 5 rows containing missing values (geom_path).
 
 
-![images/svg](output_17_1.svg)
+![svg](images/output_14_1.svg)
 
+
+***
