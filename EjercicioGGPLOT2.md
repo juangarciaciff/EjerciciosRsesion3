@@ -48,20 +48,7 @@ length(numlist100)
 
 
 
-
-<ul class=list-inline>
-	<li>47479</li>
-	<li>22055</li>
-	<li>43849</li>
-	<li>49973</li>
-	<li>31968</li>
-	<li>42572</li>
-</ul>
-
-
-
-
-
+47479 22055 43849 49973 31968 42572
 
 
 100
@@ -96,10 +83,7 @@ dim(diamonds)
 
 
 
-<ul class=list-inline>
-	<li>53940</li>
-	<li>10</li>
-</ul>
+53940 10
 
 
 
